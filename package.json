@@ -1,0 +1,23 @@
+{
+  "name": "npm-scan",
+  "version": "1.0.0",
+  "description": "An extensible, heuristic-based scanning tool for installed npm packages",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "scan": "scan"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/spaceraccoon/npm-scan.git"
+  },
+  "author": "Eugene Lim",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/spaceraccoon/npm-scan/issues"
+  },
+  "homepage": "https://github.com/spaceraccoon/npm-scan#readme",
+  "bin": {
+    "scan": "bin/scan"
+  }
+}
