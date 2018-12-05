@@ -1,5 +1,15 @@
 #! /usr/bin/env node
+
 'use strict'
+
+/**
+ * Module dependencies.
+ */
+
 const scan = require('../lib/scan')
 
+/**
+ * Run scan.
+ */
+ 
 scan()
