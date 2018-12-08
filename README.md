@@ -38,15 +38,19 @@ Push changes on a separate branch.
 
 ## Contributing
 To add a new heuristic, you will require the following:
-1. *name*
-2. *message*
-3. *categories*
-4. *reference*
+1. **name** - Name of the heuristic
+2. **message** - Description of the heuristic
+3. **categories** - [CVSS v3.0](5)-based categories that the code, that this heuristic is flagging out for, is looking for.
+4. **reference** - URL to a report or disclosure of the vulnerability/suspicious code
+
+## Scoring
+The scoring of each category is based on [CVSS v3.0](5).
 
 ## References
 [1]: https://github.com/dominictarr/event-stream
 [2]: https://blog.npmjs.org/post/180565383195/details-about-the-event-stream-incident
 [3]: https://libraries.io/npm/flatmap-stream/0.1.1
 [4]: https://nvd.nist.gov/
+[5]: https://www.first.org/cvss/specification-document
 https://resources.sei.cmu.edu/asset_files/TechnicalNote/2005_004_001_14474.pdf
 https://www.snort.org/rules_explanation
