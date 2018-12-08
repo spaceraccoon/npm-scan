@@ -4,7 +4,7 @@
   "description": "An extensible, heuristic-based scanning tool for installed npm packages",
   "main": "index.js",
   "scripts": {
-    "scan": "scan",
+    "scan": "npm-scan",
     "test": "mocha 'lib/**/*.test.js' -r chai/register-expect",
     "lint": "npx standard"
   },
@@ -19,7 +19,7 @@
   },
   "homepage": "https://github.com/spaceraccoon/npm-scan#readme",
   "bin": {
-    "scan": "bin/scan"
+    "npm-scan": "bin/scan"
   },
   "devDependencies": {
     "chai": "^4.2.0",
