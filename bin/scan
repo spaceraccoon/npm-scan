@@ -11,5 +11,5 @@ const scan = require('../lib/scan')
 /**
  * Run scan.
  */
- 
+
 scan()
