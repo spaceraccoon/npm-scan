@@ -1,3 +1,3 @@
-var avmp = require('avmp');
+var avmp = require('avmp')
 
-avmp.printMsg();
+avmp.printMsg()
