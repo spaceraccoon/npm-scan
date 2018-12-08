@@ -1,1 +1,0 @@
-for f in $(find ./node_modules -name '*.js' -or -name '*.ts' -or -name '*.tsx' -or -name '*.jsx'); do yara -r ./lib/heuristics/yara-beef-petty-theft/compiled-rule.yar $f; done
