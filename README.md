@@ -19,7 +19,7 @@ This incident highlighted the shocking lack of accountability in NPM that had im
 A. We want to give all users and developers power to check their currently installed node_modules for malicious intent.
 
 #### Q. How will you do that?
-A. We created npm-scan. It uses simple regex-based heuristics to check for suspicious lines of code in any installed node module. Each flagged line is given a severity score. A high severity score on a particular package indicates possible malicious behavior. These scores are compiled into a report for the user to check which dependency contains suspicious code, and determine if there are any areas of concern.  
+A. We created npm-scan. It uses simple regex-based heuristics to check for suspicious lines of code in any installed node module. A particular package with many suspicious lines of code indicates possible malicious behavior. These scores are compiled into a report for the user to check which dependency contains suspicious code, and determine if there are any areas of concern.  
 
 #### Q. How is this different from other scanners out there?
 A. Most scanners such as Source Clear and Black Duck conduct their scanning based on databases such as the [National Vulnerability Database](4). This is slow as it could be weeks or months by the time a vulnerability is disclosed, inwhich time the malicious package would have been automatically updated on millions of devices. 
