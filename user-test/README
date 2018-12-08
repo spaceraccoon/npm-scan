@@ -1,0 +1,6 @@
+User scenario blackbox testing.
+This test node package downloads VMP, a package with highly malicious code.
+It also installs npm-scan. Use npm-scan to scan for the vulnerabilities.
+
+1. npm install - install the node dependencies
+2. npx npm-scan - runs npm scan

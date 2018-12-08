@@ -4,7 +4,7 @@ An extensible, heuristic-based vulnerability scanning tool for installed npm pac
 ## Quickstart
 ```
 npm install https://github.com/spaceraccoon/npm-scan.git
-npx scan
+npx npm-scan
 ```
 
 ## Developing
