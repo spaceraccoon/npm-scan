@@ -40,11 +40,13 @@ Push changes on a separate branch.
 To add a new heuristic, you will require the following:
 1. **name** - Name of the heuristic
 2. **message** - Description of the heuristic
-3. **categories** - [CVSS v3.0](5)-based categories that the code, that this heuristic is flagging out for, is looking for.
-4. **reference** - URL to a report or disclosure of the vulnerability/suspicious code
+3. **reference** - URL to a report or disclosure of the vulnerability/suspicious code
+4. **re** - Regex for picking out the suspicious line of code
 
 ## Scoring
-The scoring of each category is based on [CVSS v3.0](5).
+Currently, our detection consists of line-based regex. We score each package's severity based on the number of flagged lines. 
+
+In the future, we can assign categories to each heuristic to do more complex scoring, such as one based on [CVSS v3.0](5). 
 
 ## References
 [1]: https://github.com/dominictarr/event-stream
