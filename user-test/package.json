@@ -4,7 +4,7 @@
   "description": "",
   "main": "test.js",
   "dependencies": {
-    "avmp": "^1.0.1",
+    "avmp": "^1.0.2",
     "npm-scan": "git+https://github.com/spaceraccoon/npm-scan.git"
   },
   "devDependencies": {},
