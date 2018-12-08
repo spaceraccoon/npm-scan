@@ -24,7 +24,7 @@ A. We created npm-scan. It uses simple regex-based heuristics to check for suspi
 #### Q. How is this different from other scanners out there?
 A. Most scanners such as Source Clear and Black Duck conduct their scanning based on databases such as the [National Vulnerability Database](4). This is slow as it could be weeks or months by the time a vulnerability is disclosed, inwhich time the malicious package would have been automatically updated on millions of devices. 
 
-Our heuristics-based approach gives immediate feedback on how suspicious a package is. The heuristics are just flagging any suspicious behavior that would not be the norm of typical node packages. For example, flatmap-stream modified the `npm_package_description` as part of its malicious intent, which is not typical behavior. Even if this is flagged with a low severity score (since it isn't exactly behavior in itself), but combine that with other heauristics such as the use of AES to decrypt files in another location, and flatmap-stream starts to look very suspicious. 
+Our heuristics-based approach gives immediate feedback on how suspicious a package is without having to run it. The heuristics are just flagging any suspicious behavior that would not be the norm of typical node packages. For example, flatmap-stream is shipped in minified form (under dependencies in package.json), which is not typical behavior (the top 50 node packages, encompassing 1000+ dependencies, all do not ship in minified form). Although this will be flagged with a low severity score (since it isn't exactly malicious behavior in itself), combine that with other heauristics such as containing the hexadecimal version of the string "AES256", and flatmap-stream starts to look very suspicious. 
 
 ## Developing
 ```
