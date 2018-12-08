@@ -31,5 +31,6 @@
     "ignore": [
       "lib/**/*.example.js"
     ]
-  }
+  },
+  "dependencies": {}
 }

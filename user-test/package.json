@@ -1,0 +1,16 @@
+{
+  "name": "user-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "test.js",
+  "dependencies": {
+    "avmp": "^1.0.1",
+    "npm-scan": "git+https://github.com/spaceraccoon/npm-scan.git"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
