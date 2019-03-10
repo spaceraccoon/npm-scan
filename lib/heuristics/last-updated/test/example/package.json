@@ -1,0 +1,62 @@
+{
+  "_from": "stream-combine",
+  "_id": "stream-combine@2.0.1",
+  "_inBundle": false,
+  "_integrity": "sha1-D764aGL2v8oxgQPqsRuEboQRtC8=",
+  "_location": "/stream-combine",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "stream-combine",
+    "name": "stream-combine",
+    "escapedName": "stream-combine",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/stream-combine/-/stream-combine-2.0.1.tgz",
+  "_shasum": "0fbeb86862f6bfca318103eab11b846e8411b42f",
+  "_spec": "stream-combine",
+  "_where": "C:\\npmjs\\NPMInstaller\\node\\sprijkstream-combine",
+  "author": {
+    "name": "ViriCiti"
+  },
+  "bugs": {
+    "url": "https://github.com/viriciti/stream-combine/issues"
+  },
+  "bundleDependencies": false,
+  "dependencies": {
+    "underscore": "^1.8.3"
+  },
+  "deprecated": false,
+  "description": "Merges chronological time-based object streams, using a common key for time.",
+  "devDependencies": {
+    "async": "^1.4.2",
+    "coffee-project": "^1.2.3",
+    "coffee-script": "^1.9.2",
+    "gulp": "^3.8.11",
+    "mongodb": "^2.0.45"
+  },
+  "homepage": "https://github.com/viriciti/stream-combine#readme",
+  "keywords": [
+    "stream",
+    "combine",
+    "merge"
+  ],
+  "license": "ISC",
+  "main": "index.js",
+  "name": "stream-combine",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/viriciti/stream-combine.git"
+  },
+  "scripts": {
+    "test": "echo \"Use `gulp` instead\" && exit 1"
+  },
+  "version": "2.0.2"
+}
