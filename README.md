@@ -1,8 +1,7 @@
 # npm-scan
-An extensible, heuristic-based vulnerability scanning tool for installed npm packages.
+[![Black Hat Arsenal](https://raw.githubusercontent.com/toolswatch/badges/master/arsenal/asia/2018.svg)](https://www.toolswatch.org/2018/01/black-hat-arsenal-asia-2018-great-lineup/)
 
-1. Active heuristics-based scanning: quick and easy for anyone to use
-2. Improves/enforces quality of open source coding
+An extensible, heuristic-based vulnerability scanning tool for installed npm packages.
 
 ## Quickstart
 ```
