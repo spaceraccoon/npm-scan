@@ -29,7 +29,7 @@
   },
   "standard": {
     "ignore": [
-      "lib/**/*.example.js"
+      "lib/**/*.example*.js"
     ]
   },
   "dependencies": {
