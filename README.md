@@ -24,6 +24,7 @@ Options:
   -e, --exclude-heuristics <items>  exclude comma-separated list of heuristics
   -o, --output <file path>          set file path for JSON output
   -v, --verbose                     print more details for each package scan
+  -s, --strict                      include low-risk heuristics
   -h, --help                        output usage information
 ```
 
