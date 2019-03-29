@@ -4,7 +4,7 @@
 
 An extensible, heuristic-based vulnerability scanning tool for installed npm packages.
 
-*WARNING: npm-scan is still very much in early development and should not be used in production.* We are developing more accurate heuristics. **We are actively seeking new contributors with ideas for new heuristics, so please do get in touch :)**
+*WARNING: npm-scan is still very much in early development and should not be used in production.* We are developing more accurate heuristics. **We are actively seeking new contributors with ideas for additional heuristics, so please do get in touch :) **
 
 Another important project you can contribute to is [npm-zoo](https://github.com/spaceraccoon/npm-zoo), where past malicious packages are uploaded for research. We need more examples in order to develop better heuristics.
 
