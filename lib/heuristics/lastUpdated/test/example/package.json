@@ -40,7 +40,7 @@
     "coffee-project": "^1.2.3",
     "coffee-script": "^1.9.2",
     "gulp": "^3.8.11",
-    "mongodb": "^2.0.45"
+    "mongodb": "^3.6.1"
   },
   "homepage": "https://github.com/viriciti/stream-combine#readme",
   "keywords": [
