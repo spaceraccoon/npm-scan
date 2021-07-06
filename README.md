@@ -1,5 +1,5 @@
 # npm-scan
-[![Black Hat Arsenal](https://raw.githubusercontent.com/spaceraccoon/npm-scan/master/docs/images/bhusa2020.svg?sanitize=true)]()
+[![Black Hat Arsenal](https://raw.githubusercontent.com/spaceraccoon/npm-scan/master/bha2019.svg?sanitize=true)]()
 [![Contributors](https://img.shields.io/github/contributors/spaceraccoon/npm-scan.svg)]()
 
 An extensible, heuristic-based vulnerability scanning tool for installed npm packages.
